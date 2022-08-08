@@ -1,0 +1,36 @@
+{
+    "idf.adapterTargetName": "esp32s2",
+    "idf.openOcdConfigs": [
+        "interface/ftdi/esp32_devkitj_v1.cfg",
+        "target/esp32s2.cfg"
+    ],
+    "idf.flashType": "UART",
+    "idf.portWin": "COM3",
+    "files.associations": {
+        "gpio.h": "c",
+        "esp_types.h": "c",
+        "gpio_periph.h": "c",
+        "gpio_types.h": "c",
+        "GPIO_TYPES.H": "cpp",
+        "array": "c",
+        "charconv": "c",
+        "chrono": "c",
+        "compare": "c",
+        "cstddef": "c",
+        "iterator": "c",
+        "limits": "c",
+        "memory": "c",
+        "system_error": "c",
+        "type_traits": "c",
+        "vector": "c",
+        "xmemory": "c",
+        "xutility": "c",
+        "*.inc": "c",
+        "core_wifi_sta.h": "c",
+        "esp_wifi.h": "c",
+        "reent.h": "c",
+        "esp_netif.h": "c",
+        "freertos.h": "c",
+        "app_http_server.h": "c"
+    }
+}
